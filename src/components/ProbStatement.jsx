@@ -6,8 +6,10 @@ const ProbStatement = () => {
     <>
     
     <div>
-        <section className="bg-[rgb(232,234,238)] text-black py-20 px-6 md:px-16">
-  
+        <section className="bg-[rgb(232,234,238)] text-black py-10 px-6 md:px-16">
+        
+          
+
   <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
     
     {/* LEFT SIDE (TEXT) */}
@@ -29,22 +31,22 @@ const ProbStatement = () => {
     {/* RIGHT SIDE (VISUAL CARDS) */}
     <div className="w-full md:w-1/2 grid grid-cols-2 gap-4">
       
-      <div className="bg-gray-900 p-6 rounded-xl text-center">
+      <div className="bg-gray-900 p-6 rounded-xl text-center hover:shadow-2xl hover:scale-105 transition">
         <p className="text-3xl font-bold text-orange-500">30%</p>
         <p className="text-gray-400 mt-2">Food Wasted</p>
       </div>
 
-      <div className="bg-gray-900 p-6 rounded-xl text-center">
+      <div className="bg-gray-900 p-6 rounded-xl text-center hover:shadow-2xl hover:scale-105 transition">
         <p className="text-3xl font-bold text-orange-500">50%</p>
         <p className="text-gray-400 mt-2">Meals Skipped</p>
       </div>
 
-      <div className="bg-gray-900 p-6 rounded-xl text-center">
+      <div className="bg-gray-900 p-6 rounded-xl text-center hover:shadow-2xl hover:scale-105 transition">
         <p className="text-3xl font-bold text-orange-500">₹</p>
         <p className="text-gray-400 mt-2">Credits Lost</p>
       </div>
 
-      <div className="bg-gray-900 p-6 rounded-xl text-center">
+      <div className="bg-gray-900 p-6 rounded-xl text-center hover:shadow-2xl hover:scale-105 transition">
         <p className="text-3xl font-bold text-orange-500">0</p>
         <p className="text-gray-400 mt-2">Planning Tools</p>
       </div>

@@ -10,9 +10,9 @@ const Nav1 = () => {
       </h1>
 
       <div className="hidden md:flex items-center gap-6 text-black font-semibold">
-        <a href="#" className="px-4 py-2 border border-orange-500 rounded-lg hover:bg-white hover:text-black transition">Home</a>
-        <a href="#" className="px-4 py-2 border border-orange-500 rounded-lg hover:bg-white hover:text-black transition">About</a>
-        <a href="#" className="px-4 py-2 border border-orange-500 rounded-lg hover:bg-white hover:text-black transition">Contact</a>
+        <a href="#" className="px-4 py-2 border border-orange-500 rounded-lg hover:text-black transition hover:bg-orange-600 hover:shadow-2xl hover:scale-105">Home</a>
+        <a href="#" className="px-4 py-2 border border-orange-500 rounded-lg hover:text-black transition hover:bg-orange-600 hover:shadow-2xl hover:scale-105">About</a>
+        <a href="#" className="px-4 py-2 border border-orange-500 rounded-lg hover:text-black transition hover:bg-orange-600 hover:shadow-2xl hover:scale-105">Contact</a>
       </div>
 
       

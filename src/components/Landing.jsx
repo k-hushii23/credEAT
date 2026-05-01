@@ -9,7 +9,7 @@ const Landing = () => {
   return (
     <>
     <Nav1/>
-    <div className="min-h-screen bg-[rgb(232,234,238)] text-black flex items-center px-6 md:px-16ls">
+    <div className="h-screen bg-[rgb(232,234,238)] text-black flex items-center px-6 md:px-16 ">
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto">
         <div className="w-full md:w-1/2">
           <p className="text-orange-500 mb-3">
@@ -27,7 +27,7 @@ const Landing = () => {
             Plan your meals smarter, confirm in advance, and avoid
             unnecessary mess food waste on campus.
           </p>
-          <button className="mt-7 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-lg font-semibold">
+          <button className="mt-7 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-lg font-semibold hover:shadow-2xl hover:scale-105">
             Get Started
           </button>
         </div>
@@ -41,6 +41,10 @@ const Landing = () => {
       </div>
       <br />
     </div>
+    <h1 className="text-4xl md:text-6xl font-bold leading-tight py-10 text-center pb-20 bg-[rgb(232,234,238)]">
+            Food Wastage Is Costing  
+            <span className="text-orange-500"> Everyone </span>
+          </h1>
     {/* PROBLEM SECTION */}
     
     <ProbStatement/>
