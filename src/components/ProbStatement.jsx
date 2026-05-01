@@ -1,7 +1,10 @@
 import React from 'react'
 
+
 const ProbStatement = () => {
   return (
+    <>
+    
     <div>
         <section className="bg-[rgb(232,234,238)] text-black py-20 px-6 md:px-16">
   
@@ -51,6 +54,7 @@ const ProbStatement = () => {
   </div>
 </section>
     </div>
+    </>
   )
 }
 

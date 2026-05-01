@@ -1,11 +1,14 @@
 import React from 'react'
 import ProbStatement from './ProbStatement';
+import Nav1 from './nav1';
+
+
 
 const Landing = () => {
 
   return (
     <>
-    
+    <Nav1/>
     <div className="min-h-screen bg-[rgb(232,234,238)] text-black flex items-center px-6 md:px-16ls">
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto">
         <div className="w-full md:w-1/2">
@@ -39,6 +42,7 @@ const Landing = () => {
       <br />
     </div>
     {/* PROBLEM SECTION */}
+    
     <ProbStatement/>
    
     </>
