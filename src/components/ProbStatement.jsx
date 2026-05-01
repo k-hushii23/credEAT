@@ -54,6 +54,26 @@ const ProbStatement = () => {
   </div>
 </section>
     </div>
+    {/* cards */}
+    <div>
+    <section className="py-20 px-10 bg-[rgb(232,234,238)]">
+     <div className="flex items-center justify-center gap-8">
+    
+    <div className="bg-orange-500 rounded-3xl w-75 h-85 flex items-center justify-center cursor-pointer hover:shadow-2xl hover:scale-105 transition-transform duration-300 shadow-[inset_0_0_40px_rgba(0,0,0,0.2)]">
+      <h3 className="text-2xl font-bold text-gray-900">Student</h3>
+    </div>
+
+    <div className="bg-orange-500 rounded-3xl w-75 h-85 flex items-center justify-center cursor-pointer hover:shadow-2xl hover:scale-105 transition-transform duration-300 shadow-[inset_0_0_40px_rgba(0,0,0,0.2)]">
+      <h3 className="text-2xl font-bold text-gray-900">Admin</h3>
+    </div>
+
+    <div className="bg-orange-500 rounded-3xl w-75 h-85 flex items-center justify-center cursor-pointer hover:shadow-2xl hover:scale-105 transition-transform duration-300 shadow-[inset_0_0_40px_rgba(0,0,0,0.2)]">
+      <h3 className="text-2xl font-bold text-gray-900">Vendors</h3>
+    </div>
+
+      </div>
+    </section>
+    </div>
     </>
   )
 }
