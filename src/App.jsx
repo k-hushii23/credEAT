@@ -2,6 +2,7 @@ import { useState ,useEffect} from 'react'
 import Intro from './components/Intro'
 import Landing from './components/Landing'
 import { use } from 'react'
+import ProbStatement from './components/ProbStatement'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
     {showIntro?<Intro/>:<Landing/>}
+    {/* <ProbStatement/> */}
     
     
       
