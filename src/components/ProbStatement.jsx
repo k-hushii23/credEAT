@@ -1,4 +1,5 @@
 import React from 'react'
+import Process from './Process'
 
 
 const ProbStatement = () => {
@@ -76,6 +77,7 @@ const ProbStatement = () => {
       </div>
     </section>
     </div>
+    
     </>
   )
 }
