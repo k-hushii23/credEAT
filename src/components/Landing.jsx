@@ -1,7 +1,7 @@
 import React from 'react'
 import ProbStatement from './ProbStatement';
 import Nav1 from './nav1';
-
+import Process from './Process';
 
 
 const Landing = () => {
@@ -48,7 +48,7 @@ const Landing = () => {
     {/* PROBLEM SECTION */}
     
     <ProbStatement/>
-   
+   <Process/>
     </>
     
   );
