@@ -41,13 +41,11 @@ const Landing = () => {
             </button>
           </Link>
         </div>
-        <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
-          <img
-          // src="https://media.cnn.com/api/v1/images/stellar/prod/230808093641-02-eating-disorders-college-students-eating-wellness-stock.jpg?c=16x9&q=h_833,w_1480,c_fill"
-          src='https://www.genspark.ai/api/files/s/7gRlp2Fd?cache_control=3600"'
+        <div className="w-full md:w-1/2 h-[500px] mt-10 md:mt-0">
+        <img
+          src="https://www.genspark.ai/api/files/s/7gRlp2Fd?cache_control=3600"
           alt="hero"
-          className="w-[80%] md:w-[90%] object-contain"
-          />
+          className="w-full h-full object-cover rounded-2xl" />
         </div>
       </div>
       <br />

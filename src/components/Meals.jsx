@@ -4,7 +4,7 @@ const Meals = () => {
   const [status, setStatus] = useState("");
 
   return (
-    <div className="min-h-screen bg-black text-white px-6 md:px-16 py-20">
+    <div className="min-h-screen bg-black text-white px-6 md:px-16 py-20 flex flex-col items-center justify-center">
 
       <h1 className="text-4xl font-bold mb-6">
         Today's <span className="text-orange-500">Meals</span>

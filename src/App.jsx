@@ -10,6 +10,7 @@ import Meals from './components/Meals'
 import Credits from './components/Credits'
 import Vendors from './components/Vendors'
 import Signup from './components/Signup'
+import Login from './components/Login'
 function App() {
   const [showIntro,setShowIntro]=useState(true)
   useEffect(()=>{
@@ -33,6 +34,7 @@ function App() {
         <Route path="credits" element={<Credits />} />
         <Route path="vendor" element={<Vendors />} />
         <Route path="signup" element={<Signup />} />
+        <Route path="Login" element={<Login/>}/>
       </Routes>
     </BrowserRouter>
 

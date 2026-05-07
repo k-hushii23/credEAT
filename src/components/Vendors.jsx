@@ -4,7 +4,7 @@ const Vendor = () => {
   const [message, setMessage] = useState("");
 
   return (
-    <div className="min-h-screen bg-black text-white px-6 md:px-16 py-20">
+    <div className="min-h-screen bg-black text-white px-6 md:px-16 py-20 flex flex-col items-center justify-center">
 
       <h1 className="text-4xl font-bold mb-6">
         Pay <span className="text-orange-500">Vendor</span>
