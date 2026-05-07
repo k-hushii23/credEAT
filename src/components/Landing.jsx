@@ -1,6 +1,6 @@
 import React from 'react'
 import ProbStatement from './ProbStatement';
-import Nav1 from './nav1';
+import Nav1 from './Nav1';
 import Process from './Process';
 import About from './About';
 import Contact from './Contact';
