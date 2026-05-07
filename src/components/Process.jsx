@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import About from "./About"
 import Contact from "./Contact"
 
@@ -23,9 +24,11 @@ const Process = () => {
             This helps reduce unnecessary food preparation and waste.
           </p>
 
-          <button className="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg font-semibold">
-            Explore
-          </button>
+          <Link to="/meals">
+            <button className="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg font-semibold">
+              Explore
+            </button>
+          </Link>
         </div>
 
 
@@ -40,10 +43,13 @@ const Process = () => {
             Earn credits when you skip meals. Track your savings and use them
             smartly across campus services.
           </p>
+        
 
-          <button className="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg font-semibold">
-            Explore
-          </button>
+          <Link to="/credits">
+            <button className="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg font-semibold">
+              Explore
+            </button>
+          </Link>
         </div>
 
 
@@ -59,9 +65,11 @@ const Process = () => {
             or other services easily without extra spending.
           </p>
 
-          <button className="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg font-semibold">
-            Explore
-          </button>
+          <Link to="/vendor">
+            <button className="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg font-semibold">
+              Explore
+            </button>
+          </Link>
         </div>
 
       </div>
