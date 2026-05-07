@@ -21,7 +21,7 @@ const About = () => {
                     along with loss of prepaid meal credits.
                 </p>
             </div>
-            {/* solution */}
+
             <div className="bg-gray-900 p-6 rounded-xl hover:shadow-2xl hover:scale-105 transition">
                 <h2 className="text-2xl font-semibold mb-3 text-orange-500">
                     Our Solution

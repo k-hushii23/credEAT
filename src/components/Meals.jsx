@@ -11,7 +11,7 @@ const Meals = () => {
       </h1>
 
       <p className="text-gray-400 mb-10">
-        Confirm whether you want today's meal or skip it to earn credits.
+        Confirm whether you want Next meal or skip it to earn credits.
       </p>
 
       <div className="bg-gray-900 p-8 rounded-2xl max-w-xl">
@@ -33,7 +33,7 @@ const Meals = () => {
           </button>
 
           <button
-            onClick={() => setStatus("Meal Skipped → Credits Added")}
+            onClick={() => setStatus("Credits Added")}
             className="bg-red-500 px-5 py-2 rounded-lg"
           >
             Skip Meal

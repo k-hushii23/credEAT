@@ -16,7 +16,7 @@ const Process = () => {
         <div className="w-full bg-gray-900 rounded-3xl p-6 flex flex-col items-center text-center hover:shadow-2xl hover:scale-105 transition">
           
           <h2 className="text-white text-xl font-bold mb-2">
-            Today's Meals
+            Next Meals
           </h2>
 
           <p className="text-gray-400 text-sm mb-4">
