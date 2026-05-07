@@ -5,13 +5,16 @@ import Process from './Process'
 const ProbStatement = () => {
   return (
     <>
-    
+    <h1 className="text-4xl md:text-6xl font-bold leading-tight py-10 text-center pb-20 bg-black text-white">
+            Food Wastage Is Costing  
+            <span className="text-orange-500"> Everyone </span>
+    </h1>
     <div>
-        <section className="bg-[rgb(232,234,238)] text-black py-10 px-6 md:px-16">
+        <section className="bg-black text-white py-10 px-6 md:px-16">
         
           
 
-  <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 ">
     
     {/* LEFT SIDE (TEXT) */}
     <div className="w-full md:w-1/2">
@@ -29,7 +32,7 @@ const ProbStatement = () => {
 
     </div>
 
-    {/* RIGHT SIDE (VISUAL CARDS) */}
+    {/* (VISUAL CARDS) */}
     <div className="w-full md:w-1/2 grid grid-cols-2 gap-4">
       
       <div className="bg-gray-900 p-6 rounded-xl text-center hover:shadow-2xl hover:scale-105 transition">
@@ -57,25 +60,42 @@ const ProbStatement = () => {
   </div>
 </section>
     </div>
+    <h1 className="text-4xl md:text-6xl font-bold leading-tight pt-20 py-10 text-center pb-20 bg-black text-white">
+           Who Benefits from 
+            <span className="text-orange-500"> CredEAT???</span>
+          </h1>
     {/* cards */}
     <div>
-    <section className="py-20 px-10 bg-[rgb(232,234,238)]">
-     <div className="flex items-center justify-center gap-8">
-    
-    <div className="bg-orange-500 rounded-3xl w-75 h-85 flex items-center justify-center cursor-pointer hover:shadow-2xl hover:scale-105 transition-transform duration-300 shadow-[inset_0_0_40px_rgba(0,0,0,0.2)]">
-      <h3 className="text-2xl font-bold text-gray-900">Student</h3>
+    <section className="py-0 px-6 bg-black">
+  <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 items-stretch justify-center">
+
+    {/* Student */}
+    <div className="flex-1 bg-orange-500 rounded-2xl p-6 flex flex-col justify-center items-center text-center hover:scale-105 hover:shadow-2xl transition">
+      <h2 className="text-xl font-bold mb-4 text-black">Student</h2>
+      <p className="text-sm text-black/90 leading-relaxed">
+        Save money by skipping meals you don’t need. Earn credits instantly and use them across campus instead of letting your meal value go to waste.
+      </p>
     </div>
 
-    <div className="bg-orange-500 rounded-3xl w-75 h-85 flex items-center justify-center cursor-pointer hover:shadow-2xl hover:scale-105 transition-transform duration-300 shadow-[inset_0_0_40px_rgba(0,0,0,0.2)]">
-      <h3 className="text-2xl font-bold text-gray-900">Admin</h3>
+    {/* Mess Admin */}
+    <div className="flex-1 bg-orange-500 rounded-2xl p-6 flex flex-col justify-center items-center text-center hover:scale-105 hover:shadow-2xl transition">
+      <h2 className="text-xl font-bold mb-4 text-black">Mess Admin</h2>
+      <p className="text-sm text-black/90 leading-relaxed">
+        Get accurate meal demand in advance. Plan food preparation efficiently based on real student choices, reducing overproduction and minimizing food wastage across campus.
+      </p>
     </div>
 
-    <div className="bg-orange-500 rounded-3xl w-75 h-85 flex items-center justify-center cursor-pointer hover:shadow-2xl hover:scale-105 transition-transform duration-300 shadow-[inset_0_0_40px_rgba(0,0,0,0.2)]">
-      <h3 className="text-2xl font-bold text-gray-900">Vendors</h3>
+    {/* Vendors */}
+    <div className="flex-1 bg-orange-500 rounded-2xl p-6 flex flex-col justify-center items-center text-center hover:scale-105 hover:shadow-2xl transition">
+      <h2 className="text-xl font-bold mb-4 text-black">Vendors</h2>
+      <p className="text-sm text-black/90 leading-relaxed">
+        Increase customer flow as students use credits at campus outlets. Seamless credit-to-cash conversion ensures steady revenue while attracting more spending.
+      </p>
     </div>
 
-      </div>
-    </section>
+  </div>
+
+</section>
     </div>
     
     </>
