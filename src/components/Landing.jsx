@@ -11,8 +11,7 @@ import Vendor from './Vendors';
 import Impact from './Impact';
 import Signup from './Signup';
 import Login from './Login';
-
-
+import { Link } from "react-router-dom"
 const Landing = () => {
 
   return (
@@ -36,9 +35,11 @@ const Landing = () => {
             Plan your meals smarter, confirm in advance, and avoid
             unnecessary mess food waste on campus.
           </p>
-          <button className="mt-7 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-lg font-semibold hover:shadow-2xl hover:scale-105">
-            Get Started
-          </button>
+          <Link to="/signup">
+            <button className="mt-7 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-lg font-semibold hover:shadow-2xl hover:scale-105">
+              Get Started
+            </button>
+          </Link>
         </div>
         <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
           <img
