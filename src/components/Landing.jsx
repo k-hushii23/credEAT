@@ -18,7 +18,7 @@ const Landing = () => {
     <>
     <Nav1/>
     <div className="h-screen bg-black text-white flex items-center px-6 md:px-16 ">
-      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto gap-16">
         <div className="w-full md:w-1/2">
           <p className="text-orange-500 mb-3">
             Built for Students
@@ -41,7 +41,7 @@ const Landing = () => {
             </button>
           </Link>
         </div>
-        <div className="w-full md:w-1/2 h-[500px] mt-10 md:mt-0">
+        <div className="w-full md:w-2/3 h-[750px] mt-10 md:mt-16">
         <img
           src="https://www.genspark.ai/api/files/s/7gRlp2Fd?cache_control=3600"
           alt="hero"
